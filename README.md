@@ -1,3 +1,5 @@
+<h1>a costum theme for phpMyAdmin version 5.0.4</h1>
+
 <h2># extract all file to xampp/phpMyAdmin/themes</h2>
 
 <h2># put navigation folder to xampp/phpMyAdmin/templates</h2>
