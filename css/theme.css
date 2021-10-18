@@ -5180,12 +5180,25 @@ a.close_gis_editor {
 
 li.fast_filter {
 }
-li.fast_filter .searchClause {
+li.fast_filter .searchClause  {
     border:1px solid #DBDBDB;
     border-radius:10px;
     outline:0;
     padding:10px 30px;
-    background:#fff url('../img/search.svg') no-repeat 8px center / 15px;
+    
+    background:#623887 url('../img/search.svg') no-repeat 8px center / 15px;
+} 
+::placeholder {
+color: white;
+opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: white;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+color: white;
 }
 li.fast_filter input {
     width: 100%
@@ -7059,7 +7072,7 @@ thead .ic_b_help {
         color:#fff;
     }
     input[type=checkbox], input[type=radio] {
-        background: #525252;
+        background: #ffffff;
     }
     #pmalogo a {
         background:url('../img/logo_left_w.svg') no-repeat left center / contain
